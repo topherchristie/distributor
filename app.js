@@ -72,7 +72,7 @@ http.listen(3031, function() {
 
 var localtunnel = require('localtunnel');
 
-var tunnel = localtunnel(3031, {'subdomain':'efaredist'}, function(err, tunnel) {
+var tunnel = localtunnel(3031, {}, function(err, tunnel) {
     if (err) throw err
 
     // the assigned public url for your tunnel
