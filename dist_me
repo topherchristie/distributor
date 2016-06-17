@@ -1,0 +1,3 @@
+echo "Distributing this folder"
+node ~/Documents/Harmonize/distributor/app.js $(pwd)
+
